@@ -59,5 +59,7 @@ public class CarrinhoDeCompras {
         carrinhoDeCompras.exibirItens();
         carrinhoDeCompras.removerItem("Bolacha");
         carrinhoDeCompras.exibirItens();
+        carrinhoDeCompras.obterValorTotal();
+        System.out.println(carrinhoDeCompras.obterValorTotal());
     }
 }
